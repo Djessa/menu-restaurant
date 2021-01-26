@@ -60,7 +60,7 @@ public class AllMenu extends JPanel{
 				saisir();
 			}	
 		});
-		plat_label = new JLabel("Plat");
+		plat_label = new JLabel("Plat résistant");
 		plat_label.setForeground(new Color(200, 105, 32));
 		plat_label.setBounds(480, 190, 150, 25);
 		plat_label.setFont(new Font("Impact", Font.ROMAN_BASELINE, 18));
@@ -93,14 +93,14 @@ public class AllMenu extends JPanel{
 		add(prix);
 		//Remplissage des listes des menus dans  notre conteneur
 		menus = new ArrayList();
-		addMenu(new Menu("Poulet", 7000, 1), "space_plat");
-		addMenu(new Menu("Haricot", 5000, 1),  "space_plat");
-		addMenu(new Menu("Soupe de tomate", 4000, 1), "space_entree");
+		addMenu(new Menu("Viande de poulet", 7000, 1), "space_plat");
+		addMenu(new Menu("Viande de boeuf", 5000, 1),  "space_plat");
+		addMenu(new Menu("Salade de legiume", 4000, 1), "space_entree");
 		addMenu(new Menu("Avocat au crevette", 9000, 1),  "space_entree");
-		addMenu(new Menu("Cafe gourmand", 3000, 1),  "space_dessert");
+		addMenu(new Menu("Café gourmand", 3000, 1),  "space_dessert");
 		addMenu(new Menu("Glace", 2000, 1),  "space_dessert");
-		addMenu(new Menu("Citronade", 2000, 1),  "space_boisson");
-		addMenu(new Menu("Coca-Cola", 4000, 1),  "space_boisson");
+		addMenu(new Menu("Jus naturel", 2000, 1),  "space_boisson");
+		addMenu(new Menu("Boisson star", 4000, 1),  "space_boisson");
 		menusChoisis = new ArrayList();
 		listChoisis = new ArrayList();
 	}	
